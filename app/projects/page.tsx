@@ -5,4 +5,4 @@ function ProjectsPage() {
     return <Projects />;
 }
 
-export default Projects;
+export default ProjectsPage;
