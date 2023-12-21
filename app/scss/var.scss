@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+    --primary: #5c62ec;
+    --secondary: #26292d;
+    --success: #198755;
+    --error: #dc3445;
+    --warning: #fec107;
+    --white: #ffffff;
+    --black: #171718;
+    --bg-primary: #ffffff;
+    --bg-secondary: #171718;
+    --text-primary: #171718;
+    --text-inverse: #ffffff;
+    --hover: #5b5ea5;
+    --overlay: #26292d73;
+    --z-index-fixed: 100;
+    --z-index-section: 50;
+    --z-index-art: 25;
+    --z-indexi-tem: 10;
+    --f1: "DM Sans", sans-serif;
+    --f2: "Poppins", sans-serif;
+}
+
+[data-theme="light"] {
+    --text-primary: #ffffff;
+    --text-inverse: #171718;
+
+    --bg-primary: #171718;
+    --bg-secondary: #ffffff;
+
+    --white: #171718;
+    --black: #ffffff;
+}
+
+$fontFamily: var(--f1);
+$fontSize: 18px;
+$line-height-base: 150%;
+$letter-spacing: -0.5px;
+$font-style: normal;
+$font-weight: 400;
+$mainColor: var(--text-primary);
+$minWidth: 320;
+$maxWidth: 1400;
+$maxWidthContainer: 1170;
+$containerPadding: 30;
+$containerWidth: ($maxWidthContainer + $containerPadding) + px;
+// Брейк-поїнти
+$pc: containerWidth + px;
+$tablet: 991.98px;
+$mobile: 767.98px;
+$mobileSmall: 479.98px;

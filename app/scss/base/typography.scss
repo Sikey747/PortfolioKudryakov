@@ -1,0 +1,58 @@
+@import "./../var";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--f1);
+    line-height: 130%;
+    font-weight: 700;
+    & ::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+h1 {
+    font-size: clamp(2.5rem, 2.0455rem + 2.5568vw, 3.75rem);
+    color: var(--primary);
+    line-height: 140%;
+}
+
+h2 {
+    font-size: clamp(1.875rem, 1.1932rem + 3.8352vw, 3.75rem);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+// h4 {
+// }
+
+// h5 {
+// }
+
+// h6 {
+// }
+
+a {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+a {
+    svg {
+        width: 2.375rem;
+        height: 2.375rem;
+        path {
+            transition: all 0.3s ease-in-out;
+            fill: var(--white);
+        }
+        &:hover path {
+            fill: var(--primary);
+        }
+    }
+}

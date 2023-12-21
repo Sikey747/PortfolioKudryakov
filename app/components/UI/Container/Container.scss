@@ -1,0 +1,7 @@
+@import "./../../../scss/var";
+
+.container {
+    max-width: $containerWidth;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}

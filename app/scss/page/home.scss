@@ -1,0 +1,49 @@
+.action {
+    background-color: var(--bg-secondary);
+    height: 100dvh;
+    @media (orientation: landscape) {
+        padding-top: rem(110);
+        // height: auto;
+    }
+    &__container {
+        position: relative;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__decor {
+        display: none;
+        position: absolute;
+        animation: rotate-center 6s linear infinite;
+        transform-origin: top;
+        transform: translateY(-50%);
+    }
+
+    &__tex-block {
+        // height: 100%;
+        position: relative;
+        z-index: 1;
+        color: var(--text-inverse);
+        max-width: rem(620);
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: rem(20);
+        color: var(--text-inverse);
+
+        & span {
+            color: var(--primary);
+        }
+    }
+
+    &__text {
+    }
+
+    &__button {
+        margin-top: rem(40);
+    }
+}

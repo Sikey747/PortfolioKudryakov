@@ -1,0 +1,27 @@
+@import "./../../scss/var";
+
+.footer {
+    background-color: var(--bg-secondary);
+    padding-top: clamp(1.875rem, 1.4044rem + 2.6471vw, 3.125rem);
+    padding-bottom: clamp(0.938rem, 0.1147rem + 4.6313vw, 3.125rem);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.875rem;
+        flex-wrap: wrap;
+    }
+
+    &__date {
+        color: var(--text-inverse);
+    }
+}

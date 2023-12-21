@@ -1,0 +1,12 @@
+.skills {
+    &__container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: rem(70) rem(15);
+        gap: rem(40);
+        max-width: rem(600);
+    }
+}

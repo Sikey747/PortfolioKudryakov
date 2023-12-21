@@ -1,0 +1,13 @@
+@keyframes rotate-center {
+    0% {
+        rotate: 0deg;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        rotate: 360deg;
+    }
+}

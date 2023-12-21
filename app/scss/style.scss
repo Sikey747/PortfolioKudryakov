@@ -1,0 +1,21 @@
+@use "sass:math";
+
+@import "base/mixins";
+@import "base/var";
+// @import "base/null";
+@import "base/typography";
+@import "base/animation";
+
+// UI/UX Components
+@import "./../components/button/button";
+@import "./../components/toggle/toggle";
+
+// Підключення стилів окремих блоків
+@import "header";
+@import "footer";
+
+// Підключення стилів окремих сторінок
+@import "../scss/page/home";
+@import "../scss/page/project";
+@import "./page/skills";
+@import "./page/contacts";

@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--bg-secondary);
+    @include adaptiveValue("padding-top", 50, 30);
+    @include adaptiveValue("padding-bottom", 30, 15);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: rem(20);
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        gap: rem(30);
+        flex-wrap: wrap;
+    }
+
+    &__item {
+    }
+
+    &__link {
+    }
+
+    &__date {
+        color: var(--text-inverse);
+    }
+}

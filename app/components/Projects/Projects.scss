@@ -1,0 +1,15 @@
+.projects {
+    background-color:var(--bg-primary);
+    padding: 4.375rem 0;
+
+    &__title {
+        padding-bottom: 3.75rem;
+        color:var(--primary);
+    }
+
+    &__projects-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(17.1875rem,1fr));
+        gap: 1.875rem;
+    }
+}
