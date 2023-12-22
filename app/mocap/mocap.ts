@@ -31,8 +31,8 @@ export const Projects: Project[] = [
     },
     {
         img: "/image/smart.png",
-        title: "SmarTS,pace Estate Deals",
-        link: "https://sikey747.github.io/Smart,pace/",
+        title: "SmartSpace, Estate Deals",
+        link: "https://sikey747.github.io/SmartSpace/",
         id: 5,
         skill: "HTML, CSS, JS, GULP ",
     },
@@ -46,7 +46,7 @@ export const Projects: Project[] = [
     {
         img: "/image/marcho.png",
         title: "marcho",
-        link: "https://sikey747.github.io/marcho/shop_list.HTML,",
+        link: "https://sikey747.github.io/marcho/home.html",
         id: 7,
         skill: "HTML, CSS, JS, GULP ",
     },
@@ -85,11 +85,11 @@ export const Projects: Project[] = [
         id: 12,
         skill: "REACT, HTML, SCSS, TS, REACT QUERY, AXIOS, REDUX",
     },
-    {
-        img: "/image/Abz.png",
-        title: "Abz",
-        link: "https://sikey747.github.io/Abz/",
-        id: 13,
-        skill: "REACT, HTML, SCSS, TS, REACT QUERY, AXIOS, ZUSTAND",
-    },
+    // {
+    //     img: "/image/Abz.png",
+    //     title: "Abz",
+    //     link: "https://sikey747.github.io/Abz/",
+    //     id: 13,
+    //     skill: "REACT, HTML, SCSS, TS, REACT QUERY, AXIOS, ZUSTAND",
+    // },
 ];
