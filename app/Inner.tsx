@@ -15,7 +15,7 @@ function Inner({ children }: InnerProps) {
     return (
         <>
             <Header inerrRef={ref} />
-            <main style={{ marginTop: height + 20 }} className="page">
+            <main style={{ paddingTop: height + 20 }} className="page">
                 {children}
             </main>
             <Footer />

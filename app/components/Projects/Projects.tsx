@@ -4,7 +4,7 @@ import { Projects as data } from "./../../mocap/mocap";
 import { Container } from "./../UI/index";
 
 function Projects() {
-    const items = data.toReversed().map((el) => {
+    const items = [...data].reverse().map((el) => {
         return (
             <li key={el.title}>
                 <ProjectsCards title={el.title} img={el.img} link={el.link} />
